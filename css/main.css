@@ -1,0 +1,177 @@
+.body {
+  background: #121517;
+  margin: 0px;
+}
+
+.main {
+  margin-top: 48px;
+}
+
+.nav {
+  display: flex;
+}
+
+.a_none {
+  text-decoration: none;
+}
+
+.logo {
+  width: 195px;
+  margin-right: 94px;
+}
+
+.StarBucks_Logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 109%;
+  letter-spacing: -0.03em;
+  background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  width: 1294px;
+  margin: 0px auto;
+}
+
+.ul_block {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #d9d9d9;
+  padding: 0px;
+}
+
+.a_block {
+  color: #d9d9d9;
+}
+
+.a_block:hover {
+  color: rgba(217, 217, 217, 0.5882352941);
+}
+
+.li_block {
+  margin-right: 94px;
+}
+
+.block_OurNewEvents {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0px 0px 54px 0px;
+}
+
+.p_OurNewEvents {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 163%;
+  letter-spacing: -0.02em;
+  color: #d9d9d9;
+}
+
+.Block_p_OurNewEvents {
+  width: 457px;
+  margin-right: 72px;
+}
+
+.OurNewEvents_block {
+  width: 366px;
+}
+
+.H2_Our_New {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 109%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin: 0px;
+}
+
+.Events_span {
+  background: linear-gradient(245deg, #237249 0%, #35c66b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.block_img_One {
+  display: flex;
+}
+
+.img_block1 {
+  border-radius: 30px;
+  width: 614px;
+  height: 260px;
+}
+
+.margenBlockRight {
+  margin-right: 24px;
+}
+
+.Slaid_TWO {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.TwoCoffe {
+  width: 230px;
+  height: 188px;
+  bottom: 230px;
+  position: relative;
+  left: 27px;
+  z-index: 9;
+}
+
+.P_TWO_COFFEE {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  color: #fff;
+  margin-bottom: 44px;
+}
+
+.btn_More {
+  cursor: pointer;
+  width: 167px;
+  height: 74px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 146%;
+  letter-spacing: -0.03em;
+  color: #d9d9d9;
+  background: linear-gradient(245deg, #237249 0%, #35c66b 100%);
+  border: none;
+  border-radius: 83px;
+}
+
+.btn_More:hover {
+  background: linear-gradient(245deg, rgba(35, 114, 73, 0.8431372549) 0%, #35c66a 100%);
+}
+
+.block_imgOne {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.P_TWO_COFFEE_Two {
+  margin: 0px 0px 41px 0px;
+  width: 294px;
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
