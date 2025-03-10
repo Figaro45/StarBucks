@@ -1,4 +1,13 @@
 @media (max-width: 1300px) {
+  .block_swiperBottom {
+    padding-left: 80px;
+  }
+  .four_block {
+    padding-left: 80px;
+  }
+  .four_block {
+    padding-left: 80px;
+  }
   .container {
     width: 100%;
   }
@@ -31,6 +40,59 @@
   }
 }
 @media (max-width: 700px) {
+  .imgSlaid_Kryg02 {
+    width: 170px;
+    left: 0px;
+    top: 110px;
+  }
+  .imgSlaid02 {
+    width: 220px;
+    bottom: 110px;
+    right: 30px;
+  }
+  .Fast_p {
+    margin: 0px;
+  }
+  .btn_BuyProduct {
+    margin-top: 0px;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+  }
+  .imgSlaid06 {
+    bottom: 110px;
+  }
+  .imgSlaid_Kryg {
+    width: 170px;
+    right: 0px;
+    top: 90px;
+  }
+  .img_blocl_coffe {
+    width: 170px;
+  }
+  .h2_Fast {
+    font-size: 21px;
+  }
+  .Fast_p {
+    font-size: 13px;
+  }
+  .spanCountre {
+    font-size: 21px;
+  }
+  .spam_ml {
+    font-size: 13px;
+  }
+  .Opisanie_block {
+    position: relative;
+    bottom: 55px;
+    width: 100%;
+    height: 164px;
+  }
+  .block_Cofffe {
+    margin-right: 36px;
+    width: 183px;
+    height: 366px;
+  }
   .StarBucks_Logo {
     font-size: 22px;
   }
