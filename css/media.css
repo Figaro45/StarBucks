@@ -5,4 +5,82 @@
   .StarBucks_Logo {
     padding-left: 25px;
   }
+  .block_imgOne {
+    padding-left: 80px;
+  }
+}
+@media (max-width: 1200px) {
+  .block_img06 {
+    display: none;
+  }
+  .ul_block {
+    display: none;
+  }
+  .Block_p_OurNewEvents {
+    padding-left: 80px;
+  }
+}
+@media (max-width: 1130px) {
+  .H2_Our_New {
+    padding-left: 80px;
+    font-size: 53px;
+  }
+  .block_OurNewEvents {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 700px) {
+  .StarBucks_Logo {
+    font-size: 22px;
+  }
+  .Block_p_OurNewEvents {
+    width: 289px;
+    margin-right: 0px;
+  }
+  .p_OurNewEvents {
+    font-size: 14px;
+    height: 70px;
+  }
+  .Block_p_OurNewEvents {
+    padding-left: 80px;
+  }
+  .block_imgOne {
+    width: 811px;
+    height: 147px;
+    padding-left: 80px;
+  }
+  .imgTwoBlock {
+    padding-left: 80px;
+  }
+  .TwoCoffe {
+    bottom: 200px;
+    width: 167px;
+    height: 110px;
+    bottom: 140px;
+  }
+  .btn_More {
+    font-size: 16px;
+    width: 130px;
+    height: 50px;
+  }
+  .P_TWO_COFFEE {
+    font-size: 18px;
+    width: 168px;
+    margin-bottom: 0px;
+  }
+  .P_TWO_COFFEE_Two {
+    font-size: 18px;
+    width: 168px;
+    margin-bottom: 0px;
+  }
+  .top_more {
+    margin-top: 24px;
+  }
+  .P_TWOBottom {
+    margin-bottom: 33px;
+  }
+  .P_TWOINST {
+    margin-bottom: 8px;
+  }
 }/*# sourceMappingURL=media.css.map */
