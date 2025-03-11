@@ -543,4 +543,8 @@
   position: absolute;
   right: 1px;
   top: 400px;
+}
+
+.absolut_block {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
