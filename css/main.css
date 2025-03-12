@@ -547,4 +547,115 @@
 
 .absolut_block {
   display: none;
+}
+
+.section_Two {
+  margin-bottom: 100px;
+}
+
+.Con_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WeHere_block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 548px;
+  height: 755px;
+}
+
+.green_img {
+  position: relative;
+  z-index: 10;
+  width: 465px;
+  height: 684px;
+}
+
+.table_img {
+  position: relative;
+  top: 20px;
+  right: 500px;
+  z-index: 11;
+  width: 595px;
+  height: 814px;
+}
+
+.WeHere_Two {
+  padding-top: 22px;
+  width: 457px;
+  height: 661px;
+}
+
+.width_H2 {
+  width: 100%;
+  margin-bottom: 63px;
+}
+
+.Only_in_2021 {
+  width: 100%;
+  margin-bottom: 63px;
+}
+
+.img_Video {
+  position: relative;
+  z-index: 9;
+  width: 100%;
+}
+
+.line_Two {
+  position: absolute;
+  right: 1px;
+  top: 1700px;
+  width: 1200px;
+  height: 700px;
+}
+
+.Stars_IMG {
+  position: absolute;
+  z-index: 15;
+  right: 1px;
+  bottom: 550px;
+}
+
+.Video_block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_Start {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  z-index: 12;
+  border-radius: 83px;
+  width: 326px;
+  height: 75px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 639;
+  font-size: 24px;
+  line-height: 146%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background: linear-gradient(210deg, #237249 0%, #35c66b 100%);
+}
+
+.launch_img {
+  margin-right: 12px;
+}
+
+.We_make {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 109%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin: 0px;
 }/*# sourceMappingURL=main.css.map */
