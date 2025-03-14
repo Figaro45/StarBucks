@@ -602,6 +602,7 @@
   position: relative;
   z-index: 9;
   width: 100%;
+  border-radius: 22px;
 }
 
 .line_Two {
@@ -828,4 +829,9 @@
 
 .StarBucks_block {
   display: none;
+}
+
+.video_block_play {
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=main.css.map */

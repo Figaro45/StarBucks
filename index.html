@@ -17,21 +17,29 @@
 <body class="body">
 
     <!-- Навигационная секция  -->
-    <header class="header">
+    <header class="header" id="header">
         <nav class="nav container">
             <div class="logo">
-                <h1 class="StarBucks_Logo"><a href="#" class="a_none">StarBucks</a></h1>
+                <h1 class="StarBucks_Logo">
+                    <a href="#" class="a_none Skrol" data-goto="#header">StarBucks</a>
+                </h1>
             </div>
             <ul class="ul_block ">
-                <li class="li_block"><a href="#" class="a_none a_block">Home</a></li>
-                <li class="li_block"><a href="#" class="a_none a_block">Select</a></li>
-                <li><a href="#" class="a_none a_block">Shop</a></li>
+                <li class="li_block">
+                    <a href="#" data-goto="#header" class="a_none a_block Skrol">Home</a>
+                </li>
+                <li class="li_block">
+                    <a href="#" data-goto="#main" class="a_none a_block Skrol">Select</a>
+                </li>
+                <li>
+                    <a href="#" data-goto="#Shop" class="a_none a_block Skrol">Shop</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <!-- секция главная  -->
-    <main class="main">
+    <main class="main" id="main_section">
         <div class="container">
             <div class="All_block">
                 <div class="One_block">
@@ -42,7 +50,7 @@
                         <br>new Starbucks coffee and don't forget about the discount!
                     </p>
                     <div class="block_two_btn">
-                        <button class="Select_btn">Select a coffee</button>
+                        <button class="Select_btn Skrol" data-goto="#Shop">Select a coffee</button>
                         <button class="More_Btn">More</button>
                     </div>
                     <div class="block_Three">
@@ -109,7 +117,7 @@
     </main>
 
     <!-- секция первая -->
-    <section class="section_Two">
+    <section class="section_Two" id="main">
         <div class="container">
             <div class="Con_block">
                 <div class="WeHere_block">
@@ -129,7 +137,9 @@
                         <button class="btn_Start">
                             <img src="img/второй_блок/запусл.png" alt="" loading="lazy" class="launch_img">Cooking
                             Process</button>
-                        <img src="img/второй_блок/видео.png" alt="" loading="lazy" class="img_Video">
+                        <video loop muted class="img_Video">
+                            <source src="Video/Видео.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
@@ -139,7 +149,7 @@
     </section>
 
     <!-- секция слайд 1 -->
-    <section class="section_slaid01">
+    <section class="section_slaid01" id="Shop">
         <div class="container">
             <div class="block_OurNewEvents slaid01_block ">
                 <div class="Block_p_OurNewEvents p_New_Our">
@@ -239,7 +249,7 @@
     </section>
 
     <!-- секция слайд 2-->
-    <section class="section_slaid02">
+    <section class="section_slaid02" id="section_slaid02">
         <div class="container">
             <div class="block_img06">
                 <img src="img/Slaid_TWO/06.png" class="imgSlaid6" alt="" loading="lazy">
@@ -323,7 +333,7 @@
     </section>
 
     <!-- секция низ -->
-    <section class="section_footer">
+    <section class="section_footer" id="section_footer">
         <div class="container">
             <div class="Block_Our_Contacts">
                 <div class="Our_Contacts">
@@ -352,41 +362,41 @@
     </section>
 
     <!-- низ_Сайта-->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="Footer_Arraw_Block">
-                <h2 class="StarBucks_footer StarBucks_block">StarBucks</h2>
-                <button class="Arrow_top StarBucks_block" type="button">
+                <h2 class="StarBucks_footer StarBucks_block Skrol" data-goto="#header">StarBucks</h2>
+                <button class="Arrow_top StarBucks_block Skrol" data-goto="#header" type="button">
                     <img src="img/Footer/стрелка.png" alt="" loading="lazy" class="Arrow_img">
                 </button>
             </div>
             <div class="block_UL_logo">
-                <h2 class="StarBucks_footer StarBucks_none">StarBucks</h2>
+                <h2 class="StarBucks_footer StarBucks_none Skrol" data-goto="#header">StarBucks</h2>
                 <ul class="Ul_Main">
-                    <li class="Main_li">Main</li>
-                    <li class="Buy_li">Buy</li>
-                    <li class="Buy_li">More</li>
+                    <li class="Main_li Skrol" data-goto="#header">Main</li>
+                    <li class="Buy_li Skrol" data-goto="#Shop">Buy</li>
+                    <li class="Buy_li Skrol">More</li>
                 </ul>
                 <ul class="Ul_Main">
                     <li class="Main_li">We make</li>
                     <li class="Buy_li">Process</li>
                 </ul>
                 <ul class="Ul_Main">
-                    <li class="Main_li">Products</li>
-                    <li class="Buy_li">Cappuccino</li>
-                    <li class="Buy_li">Fast</li>
+                    <li class="Main_li Skrol" data-goto="#Shop">Products</li>
+                    <li class="Buy_li Skrol" data-goto="#header">Cappuccino</li>
+                    <li class="Buy_li Skrol" data-goto="#header">Fast</li>
                 </ul>
                 <ul class="Ul_Main">
-                    <li class="Main_li">Events</li>
-                    <li class="Buy_li">Drinks</li>
-                    <li class="Buy_li">Eat</li>
+                    <li class="Main_li Skrol" data-goto="#section_slaid02">Events</li>
+                    <li class="Buy_li Skrol">Drinks</li>
+                    <li class="Buy_li Skrol">Eat</li>
                 </ul>
                 <ul class="Ul_Main">
-                    <li class="Main_li">Contacts</li>
-                    <li class="Buy_li">Instagram</li>
-                    <li class="Buy_li">Number</li>
+                    <li class="Main_li Skrol" data-goto="#section_footer">Contacts</li>
+                    <li class="Buy_li Skrol">Instagram</li>
+                    <li class="Buy_li Skrol">Number</li>
                 </ul>
-                <button class="Arrow_top StarBucks_none" type="button">
+                <button class="Arrow_top StarBucks_none Skrol" data-goto="#header" type="button">
                     <img src="img/Footer/стрелка.png" alt="" loading="lazy" class="Arrow_img">
                 </button>
             </div>
