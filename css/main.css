@@ -805,7 +805,6 @@
 }
 
 .Telrfon_Instogram {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -825,4 +824,8 @@
 .instogtam {
   width: 46px;
   height: 46px;
+}
+
+.StarBucks_block {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
