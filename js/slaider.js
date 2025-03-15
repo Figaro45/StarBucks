@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let swiper01 = new Swiper('.block_swiper01', {
     slidesPerView: 4,
     spaceBetween: 1,
