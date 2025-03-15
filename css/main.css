@@ -3,12 +3,17 @@
   margin: 0px;
 }
 
+.body._lock {
+  overflow: hidden;
+}
+
 .header {
   margin-top: 48px;
 }
 
 .nav {
   display: flex;
+  position: relative;
 }
 
 .a_none {
@@ -16,8 +21,10 @@
 }
 
 .logo {
-  width: 195px;
+  width: 230px;
   margin-right: 94px;
+  position: relative;
+  z-index: 20;
 }
 
 .StarBucks_Logo {
@@ -834,4 +841,8 @@
 .video_block_play {
   opacity: 0;
   visibility: hidden;
+}
+
+.menu_icon {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

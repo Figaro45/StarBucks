@@ -4,18 +4,24 @@ $font-family: "Montserrat", sans-serif
     background: #121517
     margin: 0px
 
+.body._lock
+    overflow: hidden
+
 .header
     margin-top: 48px
 
 .nav
     display: flex
+    position: relative
 
 .a_none
     text-decoration: none
 
 .logo
-    width: 195px
+    width: 230px
     margin-right: 94px
+    position: relative
+    z-index: 20
 
 .StarBucks_Logo
     font-family: $font-family
@@ -725,3 +731,7 @@ $font-family: "Montserrat", sans-serif
 .video_block_play
     opacity: 0
     visibility: hidden
+
+// меню бургер
+.menu_icon
+    display: none
